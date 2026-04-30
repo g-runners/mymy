@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    /* background-color: white; */
+    margin: 2% 5%;
+    width: 90%;
+    height: fit-content;
+    padding: 5px;
+}
+
+.box {
+    /* background-color: aquamarine; */
+    height: 2.5ch;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.5em;
+    display: flex;
+    color: rgb(199, 121, 20);
+}
+.lab {
+    /* background-color: blue; */
+    width: 20%;
+    padding: 10px;
+    padding-bottom: 2.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.inp {
+    /* background-color: red; */
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+input,
+textarea {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: solid 1.5px rgb(244, 201, 144);
+    color: rgb(199, 121, 20);
+}
+input:focus,
+textarea:focus {
+    border-color: rgb(255, 163, 43);
+    box-shadow: 0 0 5px rgba(255, 163, 43, 0.5);
+}
+
+textarea {
+    resize: none;
+    padding-bottom: 2em;
+}
+
+#isi {
+    resize: vertical;
+    max-height: 20em;
+
+}
+/* tambah buku */
+.coBtnKelola {
+    /* background-color: rgba(0, 0, 0, 0.477); */
+    width: fit-content;
+    height: 4em;
+    align-content: enfd;
+    margin: auto;
+    padding-top: 12ch;
+    color: black;
+}
+.btnKelola {
+    background-color: rgb(255, 185, 93);
+    color: black;
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.btnTmbhBuku:hover {
+    background-color: rgb(255, 199, 127);
+}
+.btnTmbhBuku:active {
+    background-color: rgb(255, 163, 43);
+}
+
+

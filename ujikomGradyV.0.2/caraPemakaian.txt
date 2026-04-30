@@ -1,0 +1,8 @@
+1. Ekstrak file rar
+2. Taruh file grady_ukom di htdocs
+3. Import database di phpmyadmin dengan nama database "grady_ukom"
+4. File database ada di grady_ukom/database/grady_ukom.sql
+5. buka xampp lalu ke localhost/grady_ukom/
+
+Kode Verifikasi : arsalizah
+(Gunakan saat mendaftar sebagai admin)

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    position: relative; /* Supaya pseudo-element bisa ditempatkan relatif terhadap link */
+}
+a::after {
+    content: ''; /* Membuat elemen kosong */
+    position: absolute;
+    bottom: -.5px; /* Posisi garis bawah di bawah teks */
+    left: 50%; /* Mulai dari tengah */
+    width: 0; /* Lebar awal garis bawah adalah 0 */
+    height: 2px; /* Tebal garis bawah */
+    background-color: black; /* Warna garis bawah */
+    transition: all 0.08s ease-in; /* Transisi width dan left secara bersamaan */
+}
+
+a:hover::after {
+    width: 100%; /* Garis bawah jadi selebar teks */
+    left: 0; /* Geser dari tengah ke kiri */
+}
+
+    /* article */
+.content1 {
+/* background-color: aqua; */
+height: fit-content;
+width: auto;
+display: flex;
+justify-content: center;
+ }
+     
+.cont {
+/* background-color: red; */
+width: 53ch;
+height: 30ch;
+display: flex;
+justify-content: center;  
+align-items: center;
+}
+    
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 130px;
+width: 300px;
+border-radius: 25px;
+box-shadow: 3px 2px 5px rgb(149, 139, 62);
+}
+.box p {
+font-family: cursive;
+font-size: 4ch;
+font-weight: lighter;
+color: whitesmoke;
+text-shadow: 1px .5px 2px black;
+}
+     
+.desc {
+/* background-color: rgb(69, 61, 60); */
+height: fit-content;
+width: 80%;
+margin: auto;
+text-align: center; 
+font-size: larger;
+font-style: italic;    
+font-weight: 500;
+}

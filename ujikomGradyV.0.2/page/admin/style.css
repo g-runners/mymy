@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* judul */
+.coJdl {
+    /* background-color: rgba(0, 0, 0, 0.477); */
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.coJdl p {
+    color: #f7b11a;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 0px 0px 10px rgba(228, 252, 45, 0.5);
+    font-weight: 500;
+}
+
+/* tambah buku / daftar petugas / print laporan*/
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    color: inherit;
+    cursor: pointer;
+    
+}
+
+.coTmbhBuku {
+    /* background-color: rgba(0, 0, 0, 0.477); */
+    height: 4em;
+    align-items: end;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.btnTmbhBuku {
+    background-color: rgb(255, 185, 93);
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0px 1.5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.btnTmbhBuku:hover {
+    background-color: rgb(255, 199, 127);
+    box-shadow: 0px 1.5px 5px 0px rgba(255, 255, 255, 0.7);
+    }
+.btnTmbhBuku:active {
+    background-color: rgb(255, 163, 43);
+}
+
+/* table buku */
+.container {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 3% 0;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(250, 204, 142) rgb(252, 223, 187);
+}
+.tbBuku {
+    background-color: antiquewhite;
+    border-collapse: collapse;
+    text-align: center;
+    width: 90%;
+    margin: 0 3%;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+thead {
+    background-color: rgb(252, 223, 187);
+    border-bottom: 1.5px solid rgba(255, 145, 0, 0.2);
+    height: 3em;
+}
+td {
+    white-space: wrap;
+    padding: 1em;
+    /* background-color: #414176; */
+}
+td p {
+    margin: 0;
+    font-size: 1.5;
+    text-transform: uppercase;
+}
+
+th:first-child {
+    border-top-left-radius: 10%;
+}
+th:last-child {
+    border-top-right-radius: 10%;
+}
+td:first-child {
+    border-bottom-left-radius: 10%;
+}
+td:last-child {
+    border-bottom-right-radius: 10%;
+    width: 11%;
+}
+
+th,
+td {
+    border-right: 1px solid rgb(255, 145, 0);
+    align-items: center;
+}
+th:last-child,
+td:last-child {
+    border: none;
+}
+tbody tr {
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+tbody tr:hover {
+    background-color: rgb(252, 198, 131);
+}
+
+/* AKSI */
+.aksi {
+    /* background-color: #2020ed; */
+    display: flex;
+    justify-content: center;
+    gap: 14%;
+}
+.i {
+    height: 30px;
+    width: 30px;
+    border-radius: 0.5ch;
+    color: lavender;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* button ipencil */
+.ipencil {
+    background-color: rgb(27, 156, 18);
+}
+.ipencil:hover {
+    background-color: rgb(37, 172, 28);
+}
+.ipencil:active {
+    background-color: rgb(16, 90, 11);
+}
+/* button itrash */
+.itrash {
+    background-color: rgb(215, 48, 73);
+}
+.itrash:hover {
+    background-color: rgb(253, 83, 83);
+}
+.itrash:active {
+    background-color: rgb(159, 24, 45);
+}
+
+/* deskripsi */
+.desc {
+    /* background-color: rgb(69, 61, 60); */
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 500;
+}

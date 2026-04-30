@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* judul */
+.coJdl {
+    /* background-color: rgba(0, 0, 0, 0.477); */
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.coJdl p {
+    color: #f7b11a;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 0px 0px 10px rgba(228, 252, 45, 0.5);
+    font-weight: 500;
+}
+
+/* table buku */
+.container {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 3% 0;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(250, 204, 142) rgb(252, 223, 187);
+}
+.tbBuku {
+    background-color: antiquewhite;
+    border-collapse: collapse;
+    text-align: center;
+    width: 90%;
+    margin: 0 3%;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+}
+thead {
+    background-color: rgb(252, 223, 187);
+    border-bottom: 1.5px solid rgba(255, 145, 0, 0.2);
+    height: 3em;
+}
+td {
+    white-space: wrap;
+    padding: 1em;
+    /* background-color: #414176; */
+}
+td p {
+    margin: 0;
+    font-size: 1.5;
+    text-transform: uppercase;
+}
+
+th:first-child {
+    border-top-left-radius: 10%;
+}
+th:last-child {
+    border-top-right-radius: 10%;
+}
+td:first-child {
+    border-bottom-left-radius: 10%;
+}
+td:last-child {
+    border-bottom-right-radius: 10%;
+    width: 11%;
+}
+
+th,
+td {
+    border-right: 1px solid rgb(255, 145, 0);
+    align-items: center;
+}
+
+th:last-child,
+td:last-child {
+    border: none;
+}
+
+th:first-child,
+td:first-child {
+    width: 70px;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    width: 70px;
+}
+
+
+tbody tr {
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+tbody tr:hover {
+    background-color: rgb(252, 198, 131);
+}
+
+/* AKSI */
+.aksi {
+    /* background-color: #2020ed; */
+    display: flex;
+    justify-content: center;
+    gap: 14%;
+}
+.i {
+    height: 30px;
+    width: 30px;
+    border-radius: 0.5ch;
+    color: lavender;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* button iinfo */
+.iinfo {
+    background-color: rgb(18, 156, 145);
+}
+.iinfo:hover {
+    background-color: rgb(28, 172, 163);
+}
+.iinfo:active {
+    background-color: rgb(11, 85, 90);
+}
+/* button ipinjam */
+.ikembalikan {
+    background-color: rgb(215, 48, 73);
+}
+.ikembalikan:hover {
+    background-color: rgb(253, 83, 83);
+}
+.ikembalikan:active {
+    background-color: rgb(159, 24, 45);
+}
+
+.desc {
+    /* background-color: rgb(69, 61, 60); */
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 500;
+    cursor: default;
+}
