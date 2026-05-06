@@ -1,8 +1,7 @@
-1. Ekstrak file rar
-2. Taruh file grady_ukom di htdocs(xampp) / www(laragon)
-3. File database ada di /database/grady_ukom.sql
-4. Import database dengan nama database "grady_ukom"
-5. buka xampp lalu ke localhost/grady_ukom/
+1. Taruh file grady_ukom di htdocs(xampp) / www(laragon)
+2. File database ada di /database/grady_ukom.sql
+3. Import database dengan nama database "grady_ukom"
+4. buka xampp lalu ke localhost/grady_ukom/
 
 Kode Verifikasi : arsalizah
 (Gunakan saat mendaftar sebagai admin)
